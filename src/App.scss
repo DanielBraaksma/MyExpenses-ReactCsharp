@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+
+main {
+  height: 75vh;
+  display: flex;
+}
+
+.container {
+  width: 50%;
+  padding: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+
+  &-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+    & h2 {
+      grid-column: 2 / 3;
+    }
+
+    &-addBill {
+      height: 30px;
+      width: 100px;
+      justify-self: flex-end;
+    }
+  }
+
+  &-content {
+    flex-grow: 1;
+    border: 2px solid grey;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    overflow-y: auto;
+
+    &.chart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & :first-child {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+}
+
+/********* Profile Page ***********/
+
+.profile {
+  &-wrapper {
+    height: 75vh;
+    width: 100%;
+
+  }
+
+  &-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-content {
+    border: 1px solid rgb(13, 141, 167);
+    width: 50%;
+    height: 50%;
+  }
+}

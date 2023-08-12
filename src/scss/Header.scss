@@ -1,0 +1,26 @@
+header {
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #fff;
+}
+
+h1 {
+    grid-column: 2 / 3;
+}
+
+.menu-container {
+    grid-column: 3 / span 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1.25em;
+}
+
+.menu {
+    // TODO: research more on customizing MUI components
+    color: green;
+}
