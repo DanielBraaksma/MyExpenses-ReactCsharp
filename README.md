@@ -7,7 +7,9 @@ This version contains a frontend built with React and Redux and it implements th
 This application is deployed here: https://danielbraaksma.github.io/MyExpenses-ReactCsharp/
 
 demo user:
+<br>
 email: test@test.com
+<br>
 password: pass123!
 
 The backend repo for this app can be found here: https://github.com/DanielBraaksma/MyExpenses-CSharp-REST-API
