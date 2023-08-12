@@ -1,46 +1,13 @@
-# Getting Started with Create React App
+# MyExpenses-ReactCsharp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a small budgeting application I built to practice implementing different types of REST APIs. I came accross some great advice once that mentioned a good way to practice and learn new technologies is to build different versions of the same application. This is exactly that.
 
-## Available Scripts
+This version contains a frontend built with React and Redux and it implements the backend with a REST API built with C#. The application has authentication, and allows users to log in and track their expenses. A handy chart breaks down the expenses by category.
 
-In the project directory, you can run:
+This application is deployed here: https://danielbraaksma.github.io/MyExpenses-ReactCsharp/
 
-### `npm start`
+demo user:
+email: test@test.com
+password: pass123!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The backend repo for this app can be found here: https://github.com/DanielBraaksma/MyExpenses-CSharp-REST-API
