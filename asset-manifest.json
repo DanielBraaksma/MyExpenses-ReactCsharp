@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MyExpenses-ReactCsharp/static/css/main.25016832.css",
-    "main.js": "/MyExpenses-ReactCsharp/static/js/main.6e5582e9.js",
+    "main.js": "/MyExpenses-ReactCsharp/static/js/main.92c82b27.js",
     "index.html": "/MyExpenses-ReactCsharp/index.html",
     "main.25016832.css.map": "/MyExpenses-ReactCsharp/static/css/main.25016832.css.map",
-    "main.6e5582e9.js.map": "/MyExpenses-ReactCsharp/static/js/main.6e5582e9.js.map"
+    "main.92c82b27.js.map": "/MyExpenses-ReactCsharp/static/js/main.92c82b27.js.map"
   },
   "entrypoints": [
     "static/css/main.25016832.css",
-    "static/js/main.6e5582e9.js"
+    "static/js/main.92c82b27.js"
   ]
 }
